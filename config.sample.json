@@ -1,0 +1,14 @@
+{
+    "name": "freeGen",
+    "title": "FreeGen",
+    "description": "FreeGen Sample",
+    "folder": {
+        "data": "data",
+        "pages": "pages",
+        "static": "static",
+        "public": "public",
+        "styles": "styles"
+    },
+    "styleFiles": [],
+    "jsFiles": []
+}

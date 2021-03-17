@@ -1,0 +1,24 @@
+{
+  "name": "freegen",
+  "version": "1.0.0",
+  "description": "a free static site generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stiekel",
+  "license": "Apache2",
+  "dependencies": {
+    "ecstatic": "^4.1.4",
+    "express": "^4.17.1",
+    "less": "^4.1.1",
+    "merge": "^2.1.1",
+    "minimist": "^1.2.5",
+    "mkdirp": "^1.0.4",
+    "pug": "^3.0.0",
+    "recursive-copy": "^2.0.11",
+    "rimraf": "^3.0.2",
+    "sitemap": "^6.4.0",
+    "watch": "^1.0.2"
+  }
+}
