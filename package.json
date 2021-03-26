@@ -1,8 +1,11 @@
 {
   "name": "freegen",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "a free static site generator",
   "main": "index.js",
+  "bin": {
+    "freegen": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
