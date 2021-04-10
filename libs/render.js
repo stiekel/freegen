@@ -30,7 +30,11 @@ module.exports = {
         delete require.cache[configPath];
         let r = require(configPath);
         if (typeof r === 'function') {
-            config = await r();
+            // async get config object
+            config = await r().catch(e => {
+                console.error('[render]', filepath, 'config execute failed err:', e.message);
+                return {};
+            });
         }
         else {
             config = r;
